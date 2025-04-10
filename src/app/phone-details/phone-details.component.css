@@ -95,7 +95,7 @@
 /* Hover Effect - Enhancing Glow */
 .buy:hover {
   transform: translate(50%, -50%) scale(1.1);
-  background: linear-gradient(45deg, #78c207, #345d02);
+  background: linear-gradient(45deg, #ffb804, #fbde07);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   animation: glowing 1s infinite alternate;
 }
@@ -108,9 +108,9 @@
 
 /* Glowing Animation */
 @keyframes glowing {
-  0% { box-shadow: 0 0 5px #9df20a; }
-  50% { box-shadow: 0 0 20px #9df20a; }
-  100% { box-shadow: 0 0 5px #9df20a; }
+  0% { box-shadow: 0 0 5px #ffd902; }
+  50% { box-shadow: 0 0 20px #f5ac02; }
+  100% { box-shadow: 0 0 5px #efe704; }
 }
 
 

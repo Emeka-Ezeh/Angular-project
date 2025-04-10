@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'details/:id', component: PhoneDetailsComponent },
   { path: 'carousel/:id', component: CarouselComponent},
   { path: '**', redirectTo: '' }
+
 ];
 
 @NgModule({
